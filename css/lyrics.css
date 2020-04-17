@@ -34,7 +34,7 @@
     top: 0;
     bottom: 0;
     transition: background-color .5s ease-in-out;
-    background: var(--modspotify_sidebar_and_player_bg);
+    background: var(--modspotify_main_bg);
     left: 0;
     right: 0
 }
@@ -55,7 +55,7 @@
 
 .lyrics-lines-container {
     position: absolute;
-    top: 40%;
+    top: 10%;
     bottom: 0;
     left: 0;
     right: 0
@@ -71,18 +71,18 @@
 @media (min-width:820px) and (min-height:768px) {
     .lyrics-lines-container h1,
     .lyrics-lines-container .lyrics-list-full {
-        font-size: 36px;
-        line-height: 68px;
-        min-height: 36px
+        font-size: 15px;
+        line-height: 25px;
+        min-height: 15px
     }
 }
 
 @media (min-width:1280px) and (min-height:768px) {
     .lyrics-lines-container h1,
     .lyrics-lines-container .lyrics-list-full {
-        font-size: 48px;
-        line-height: 106px;
-        min-height: 48px
+        font-size: 15px;
+        line-height: 25px;
+        min-height: 15px
     }
 }
 
@@ -199,7 +199,7 @@
 .lyrics-list-full a {
     background-color: #dddddd20;
     line-height: 1.4em;
-    color: white;
+    color: var(--modspotify_main_fg);
 }
 
 .lyrics-list-full a:hover {
