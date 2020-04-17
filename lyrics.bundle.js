@@ -124,7 +124,7 @@ f.prototype._fetchLyrics = function(info) {
         return;
     }
 
-    const url = `https://genius.com/api/search/song?per_page=4&q=${encodeURIComponent(info.artist)}%20${encodeURIComponent(info.title)}`;
+    const url = `https://genius.com/api/search/song?per_page=50&q=${encodeURIComponent(info.artist)}%20${encodeURIComponent(info.title)}`;
 
     o.resolver.get(url, (error, geniusSearch) => {
         if (error) {
