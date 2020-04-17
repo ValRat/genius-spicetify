@@ -1,9 +1,7 @@
 # genius-spicetify
 Spotify desktop client app fetches lyrics from Genius
 
-![demo](https://i.imgur.com/nDWy4g9.png)
-
-![demo2](https://i.imgur.com/yby15mV.png)
+![demo](https://i.imgur.com/K2t80PF.png)
 
 ## How to install
 0. Make sure [spicetify-cli]() is installed and run `spicetify apply` normally.
